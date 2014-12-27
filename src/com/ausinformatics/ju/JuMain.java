@@ -1,4 +1,4 @@
-package games.ju;
+package com.ausinformatics.ju;
 
 import core.Config;
 import core.Director;

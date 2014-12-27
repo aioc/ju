@@ -1,4 +1,4 @@
-package games.ju;
+package com.ausinformatics.ju;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,7 +17,6 @@ public class GameFactory implements GameBuilder {
 	private long lastTime = 0;
 	private static final long WAITTIME  = 1000 * 60 * 4;
 
-	@Override
 	public GameInstance createGameInstance(List<PersistentPlayer> players) {
 		int randKey = new Random().nextInt();
 		

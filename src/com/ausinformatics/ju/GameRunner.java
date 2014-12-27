@@ -1,4 +1,4 @@
-package games.ju;
+package com.ausinformatics.ju;
 
 import java.awt.Color;
 import java.awt.Font;
@@ -49,7 +49,6 @@ public class GameRunner implements GameInstance {
 		results.put(players.get(playerIndex), pointRewards[finalRanks[playerIndex] - 1]);
 	}
 
-	@Override
 	public void begin() {
 		boolean HAVEBAB = false;
 		for (int curRound = 0; curRound < numRounds && results.size() < players.size() - 1; curRound++) {
@@ -164,7 +163,6 @@ public class GameRunner implements GameInstance {
 		}
 	}
 
-	@Override
 	public void getVisualisation(Graphics g, int width, int height) {
 		int[] colours = new int[players.size()];
 
@@ -210,16 +208,13 @@ public class GameRunner implements GameInstance {
 		
 	}
 
-	@Override
 	public Map<PersistentPlayer, Integer> getResults() {
 		return results;
 	}
 	
-	@Override
 	public void handleWindowResize(int w, int h) {
 	}
 
-	@Override
 	public void windowClosed() {
 	}
 }

@@ -1,4 +1,4 @@
-package games.ju;
+package com.ausinformatics.ju;
 
 public class BadProtocolException extends Exception {
 

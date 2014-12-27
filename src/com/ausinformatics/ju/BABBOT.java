@@ -1,4 +1,4 @@
-package games.ju;
+package com.ausinformatics.ju;
 
 import java.awt.Color;
 import java.io.BufferedInputStream;

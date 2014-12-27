@@ -1,4 +1,4 @@
-package games.ju;
+package com.ausinformatics.ju;
 
 import core.server.ClientConnection;
 import core.server.DisconnectedException;

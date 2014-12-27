@@ -4,10 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-import core.interfaces.GameBuilder;
-import core.interfaces.GameInstance;
-import core.interfaces.PersistentPlayer;
-import core.server.DisconnectedException;
+import com.ausinformatics.phais.core.interfaces.GameBuilder;
+import com.ausinformatics.phais.core.interfaces.GameInstance;
+import com.ausinformatics.phais.core.interfaces.PersistentPlayer;
+import com.ausinformatics.phais.core.server.DisconnectedException;
 
 public class GameFactory implements GameBuilder {
 

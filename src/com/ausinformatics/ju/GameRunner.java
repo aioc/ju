@@ -15,10 +15,10 @@ import java.util.Map;
 import javax.imageio.ImageIO;
 import javax.sound.sampled.Clip;
 
-import core.interfaces.GameInstance;
-import core.interfaces.PersistentPlayer;
-import core.server.ClientConnection;
-import core.server.DisconnectedException;
+import com.ausinformatics.phais.core.interfaces.GameInstance;
+import com.ausinformatics.phais.core.interfaces.PersistentPlayer;
+import com.ausinformatics.phais.core.server.ClientConnection;
+import com.ausinformatics.phais.core.server.DisconnectedException;
 
 public class GameRunner implements GameInstance {
 

@@ -10,8 +10,8 @@ import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.Clip;
 import javax.sound.sampled.DataLine;
 
-import core.interfaces.PersistentPlayer;
-import core.server.ClientConnection;
+import com.ausinformatics.phais.core.interfaces.PersistentPlayer;
+import com.ausinformatics.phais.core.server.ClientConnection;
 
 public class BABBOT extends Player {
 	

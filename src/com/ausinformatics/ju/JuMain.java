@@ -1,7 +1,7 @@
 package com.ausinformatics.ju;
 
-import core.Config;
-import core.Director;
+import com.ausinformatics.phais.core.Config;
+import com.ausinformatics.phais.core.Director;
 
 public class JuMain {
 	public static void main (String[] args) {
